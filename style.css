@@ -1,0 +1,258 @@
+/*
+Theme Name: Houzez Child
+Theme URI: http://www.favethemes.com/
+Author: Favethemes
+Author URI: http://www.favethemes.com/
+Description: Houzez is a premium WordPress theme for real estate agents where modern aesthetics are combined with tasteful simplicity, and where the ease of use is achieved without compromise in your ability to customise the design. Whether you are a real estate agent looking to build a website for your company or a web developer seeking a perfect WordPress theme for your next project, you are certain to appreciate the numerous features and benefits that our theme provides.
+Version: 1.0
+Tags: white, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, post-formats, theme-options, translation-ready
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: houzez
+Template: houzez
+*/
+
+
+@import url("../houzez/style.css");
+
+/* Your CSS code goes here
+-------------------------------------- */
+
+.inline-img .et_pb_image {display: inline-flex;width: 32%;margin: 3.5px;}
+
+form#forminator-module-11411 h2 {
+    font-size: 24px !important;
+    color: #Fff !important;
+    font-weight: 500 !important;
+}
+
+form#forminator-module-11411 button.forminator-button.forminator-button-submit {
+    width: 100% !important;
+    border-radius: 25px !important;
+}
+
+form#forminator-module-11411 input {
+    border-radius: 25px !important;
+    background: #02345A !important;
+}
+.btn_inner .et_pb_button_module_wrapper{
+    display: inline-block;
+    min-width: 180px;
+    text-align: center !important;
+}
+.btn_inner .et_pb_button_module_wrapper.et_pb_button_0_wrapper.et_pb_module {
+  margin-left: 90px;
+}
+
+.btn_inner.cta .et_pb_button_module_wrapper .et_pb_button {
+    width: 95%;
+    text-align: center;
+}
+.col-lg-4 {
+  max-width: 31%;
+  display: inline-flex;
+  margin: 8px;
+  padding: 15px;
+  border-radius: 7px;
+}
+.col_blogs, .col-review {
+  background: linear-gradient(180deg, #004274 0%, #065C8B 100%);
+}
+
+h2.csk_post_title {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.csk_excerpt {
+  color: #ffffffeb;
+  font-size: 12px;
+}
+
+.csk_post_meta {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #1076AD;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.csk_permalink a:hover {
+    color: #17A8E3;
+}
+
+.csk_date {
+  color: #ffffffeb;
+}
+
+.csk_permalink a {
+  color: #fff;
+}
+
+img.quote_icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.csk_blurb {
+  position: relative;
+}
+.blurb_top {
+  margin-bottom: 15px;
+}
+.blurb_top h5 {
+  color: #fff;
+}
+
+.blurb_top img.rating {
+  max-width: 100px;
+}
+.blurb_bottom p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+}
+.col-review {
+  min-height: 240px;
+  padding: 25px;
+  border-radius: 8px;
+}
+.csk_row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 32%);
+    gap: 20px;
+}
+.csk_row_cols.col_blogs {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2.csk_post_title a {
+    color: white;
+}
+
+/* custom footer css */
+footer.footer-wrap.footer-wrap-custom {
+  background: linear-gradient(180deg, #004274 0%, #182C48 100%);
+  padding-top: 60px;
+}
+.row.footer_row_csk {
+  display: grid;
+  grid-template-columns: 28% 18% 18% 25%;
+  gap: 30px;
+}
+h4.footer_title {
+  font-size: 18px;
+  color: #fff;
+}
+.inner_content {
+  margin-top: 30px;
+  color: #fff;
+}
+ul#custom-nav {
+  list-style: none;
+  color: #fff;
+  padding: 0;
+  margin-left: 0;
+}
+
+ul#custom-nav li a {
+  color: #fff;
+}
+
+.icon_list a {
+  color: #53C7EE
+}
+
+
+ul#custom-nav li a {
+  padding: 0.4rem;
+}
+
+img.footer_logo {
+  max-width: 90%;
+}
+.icon_list i {
+  margin-right: 10px;
+}
+
+.copywrite p {
+  color: #8F9BB7;
+}
+.copywrite a {
+  color: #F6F6F7;
+}
+.footer_newsletter {
+  background: #004274;
+  border: 1px solid #004274;
+  border-radius: 10px;
+  padding: 20px;
+}
+.footer_newsletter h2.forminator-title {
+  text-align: center !important;
+  font-size: 24px !important;
+}
+
+.row.footer_bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 30px;
+  padding: 20px;
+}
+.footer_social_list {
+  display: flex;
+}
+
+
+.footer_social_list .icon i {
+  color: #fff;
+  padding: 7px;
+  font-size: 18px;
+  background: #17A8E3;
+  margin: 2px;
+  border-radius: 8px;
+}
+
+
+.footer_bottom_two {
+  width: fit-content;
+  float: right;
+  margin-left: auto;
+}
+
+.copywrite p {
+  padding-top: 10px;
+}
+
+.header-v4 .logo img {
+  max-width: 240px;
+  object-fit: contain;
+}
+.header-v4 .navbar-nav {
+  justify-content: center;
+}
+.header-v4 a.header_cta_button {
+  background: #17A8E3;
+  width: auto;
+  margin: auto;
+  padding: 5px 20px;
+  line-height: 2em;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 30px;
+}
+.header-v4 a.header_cta_button:hover {
+  background: #004274;
+}
+@media screen and (min-width: 1024px) {
+	.footer_row .et_pb_column_1_tb_footer, .footer_row .et_pb_column_2_tb_footer {
+    width: 19% !important;
+	}
+
+	.footer_row .et_pb_column_0_tb_footer, .footer_row .et_pb_column_3_tb_footer {
+		width: 26% !important;
+	}
+}
