@@ -20,6 +20,9 @@ Template: houzez
 
 .inline-img .et_pb_image {display: inline-flex;width: 32%;margin: 3.5px;}
 
+img {
+  max-width: 100%;
+}
 form#forminator-module-11411 h2 {
     font-size: 24px !important;
     color: #Fff !important;
